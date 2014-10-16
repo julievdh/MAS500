@@ -52,7 +52,7 @@ plot(y1)
 for n = 3:length(x2)
     y2(n) = mean(x2([n,n-1,n-2]));
 end
-figure(5)
+figure(4); hold on
 plot(y2)
 
 % OR
